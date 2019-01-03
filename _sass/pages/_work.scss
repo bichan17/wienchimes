@@ -1,0 +1,55 @@
+body.page-work{
+	.work-txt{
+		max-width: 19.3rem;
+		margin: 0 auto;
+		font-size: .8rem;
+    line-height: .9;
+    @media screen and (max-width: $breakpoint) {
+    	font-size: 0.5rem;
+    	max-width: 13.7rem;
+    }
+	}
+	.category-heading{
+		font-size: 1.875rem;
+		margin-top: 3.525rem;
+		margin-bottom: 2.5rem;
+		font-weight: bold;
+		// font-style: italic;
+		@media screen and (max-width: $breakpoint) {
+			font-size: 1.4rem;
+			margin-top: 3rem;
+			margin-bottom: 2rem;
+		}
+	}
+	.project{
+		margin-bottom: 2.1875rem;
+		p a{
+			text-decoration: underline;
+		}
+		@media screen and (max-width: $breakpoint) {
+			font-size: 0.8rem;
+		}
+	}
+	.project-title{
+		margin-bottom: 1rem;
+		a{
+			font-size: 1.325rem;
+			color: $teal;
+			@media screen and (max-width: $breakpoint) {
+				font-size: 1rem;
+			}
+
+		}
+		.date{
+			color: darken($gray, 20%);
+			@media screen and (max-width: $breakpoint) {
+				display: none;
+			}
+		}
+	}
+	
+	ul{
+		margin-top: 0.8125rem;
+	}
+	
+}

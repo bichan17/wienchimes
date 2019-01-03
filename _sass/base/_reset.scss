@@ -1,0 +1,56 @@
+* {
+	box-sizing: inherit;
+
+	&::before,
+	&::after {
+		box-sizing: inherit;
+	}
+}
+
+html {
+	box-sizing: border-box;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, bdi, big,
+blockquote, body, button, canvas, caption, center, cite, code, dd, del,
+details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure,
+footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img,
+input, ins, kbd, label, legend, li, main, mark, menu, menuitem, meter, nav,
+object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small,
+span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead,
+time, tr, tt, u, ul, var, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	line-height: 1;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	position: relative;
+	&:hover{
+		text-decoration: underline;
+	}
+	// &:after{
+	// 	content: '>';
+	// 	position: absolute;
+	// 	right: -1rem;
+	// }
+}
+
+ul, ol {
+	list-style: none;
+}

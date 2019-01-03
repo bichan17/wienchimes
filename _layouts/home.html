@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="layout-{{page.layout}}{% if page.page-name %} page-{{ page.page-name }}{% endif %}">
+
+  	{% include header.html %}
+    <div class="page-wrapper">
+      {{ content }}
+    </div>
+
+    {% include footer-scripts.html %}
+
+  </body>
+
+</html>

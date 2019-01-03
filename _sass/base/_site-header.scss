@@ -1,0 +1,19 @@
+.site-header{
+	width: 100%;
+	// position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	.logo{
+		width: 205px;
+		position: absolute;
+		top: 3rem;
+		left: 3rem;
+		opacity: 0.5;
+		@media screen and (max-width: $breakpoint) {
+			width: 100px;
+			top: 1rem;
+			left: 1rem;
+		}
+	}
+}
